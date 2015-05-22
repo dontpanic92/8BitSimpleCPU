@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/vhdl/cpu/ise_project/cpu_testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_testbench" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/cpu_testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/pc1/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/pc1/step" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step</obj_property>
+      <obj_property name="ObjectShortName">step</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/pc1/pcreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcreg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcreg[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/dbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dbus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dbus[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/abus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">abus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">abus[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/inner_dbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inner_dbus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inner_dbus[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/regarr1/reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/alua" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alua[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alua[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/alub" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alub[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alub[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/cseta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cseta</obj_property>
+      <obj_property name="ObjectShortName">cseta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/csetb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">csetb</obj_property>
+      <obj_property name="ObjectShortName">csetb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/c16bit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c16bit</obj_property>
+      <obj_property name="ObjectShortName">c16bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/cyin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cyin</obj_property>
+      <obj_property name="ObjectShortName">cyin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/cyout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cyout</obj_property>
+      <obj_property name="ObjectShortName">cyout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/zout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zout</obj_property>
+      <obj_property name="ObjectShortName">zout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/alu1/aluout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/so1/control_signal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">control_signal[24:0]</obj_property>
+      <obj_property name="ObjectShortName">control_signal[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_testbench/uut/ir1/irreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">irreg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">irreg[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

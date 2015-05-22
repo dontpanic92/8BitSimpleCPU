@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/vhdl/cpu/ise_project/cpumem_testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpumem_testbench" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/cpumem_testbench/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/abus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">abus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">abus[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/dbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dbus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dbus[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/inner_dbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inner_dbus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inner_dbus[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/ir1/irreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">irreg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">irreg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/regarr1/reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/cu1/cy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cy</obj_property>
+      <obj_property name="ObjectShortName">cy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/cu1/zf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/alu1/alucalc/f" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f[15:0]</obj_property>
+      <obj_property name="ObjectShortName">f[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/alu1/cseta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cseta</obj_property>
+      <obj_property name="ObjectShortName">cseta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/alu1/csetb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">csetb</obj_property>
+      <obj_property name="ObjectShortName">csetb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/alu1/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/regarr1/osel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">osel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">osel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpumem_testbench/uut/c/regarr1/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+</wave_config>
